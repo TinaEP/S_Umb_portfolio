@@ -1,0 +1,60 @@
+﻿ 2017-04-12 09:04:29,246 [P83732/D3/T53] INFO  Umbraco.Core.CoreBootManager - Umbraco 7.5.12 application starting on NT16
+ 2017-04-12 09:04:29,293 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Determining hash of code files on disk
+ 2017-04-12 09:04:29,324 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Hash determined (took 25ms)
+ 2017-04-12 09:04:29,402 [P83732/D3/T53] INFO  Umbraco.Core.MainDom - Acquiring MainDom...
+ 2017-04-12 09:04:29,402 [P83732/D3/T53] INFO  Umbraco.Core.MainDom - Acquired MainDom.
+ 2017-04-12 09:04:29,402 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplicationStartupHandler
+ 2017-04-12 09:04:29,887 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplicationStartupHandler, found 0 (took 477ms)
+ 2017-04-12 09:04:30,043 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter
+ 2017-04-12 09:04:30,043 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyEditorValueConverter, found 0 (took 0ms)
+ 2017-04-12 09:04:30,043 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IPropertyValueConverter
+ 2017-04-12 09:04:30,043 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IPropertyValueConverter, found 0 (took 1ms)
+ 2017-04-12 09:04:30,059 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Mvc.SurfaceController
+ 2017-04-12 09:04:30,059 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Mvc.SurfaceController, found 0 (took 0ms)
+ 2017-04-12 09:04:30,059 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.WebApi.UmbracoApiController
+ 2017-04-12 09:04:30,074 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.WebApi.UmbracoApiController, found 0 (took 6ms)
+ 2017-04-12 09:04:30,355 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IThumbnailProvider
+ 2017-04-12 09:04:30,355 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IThumbnailProvider, found 0 (took 0ms)
+ 2017-04-12 09:04:30,355 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Media.IImageUrlProvider
+ 2017-04-12 09:04:30,355 [P83732/D3/T53] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Media.IImageUrlProvider, found 0 (took 0ms)
+ 2017-04-12 09:04:32,184 [P83732/D3/T53] INFO  Umbraco.Core.DatabaseContext - CanConnect = True
+ 2017-04-12 09:04:32,855 [P83732/D3/T53] INFO  Umbraco.Web.Cache.CacheRefresherEventHandler - Initializing Umbraco internal event handlers for cache refreshing
+ 2017-04-12 09:04:33,105 [P83732/D3/T53] INFO  Umbraco.Web.Search.ExamineEvents - Initializing Examine and binding to business logic events
+ 2017-04-12 09:04:33,793 [P83732/D3/T53] INFO  Umbraco.Web.Search.ExamineEvents - Adding examine event handlers for index providers: 3
+ 2017-04-12 09:04:33,855 [P83732/D3/T53] INFO  Umbraco.Core.CoreBootManager - Umbraco application startup complete (took 4694ms)
+ 2017-04-12 09:04:35,574 [P83732/D3/T44] INFO  Umbraco.Core.Sync.ApplicationUrlHelper - ApplicationUrl: http://portfolio.tina-engelsen.dk:80/umbraco (UmbracoModule request)
+ 2017-04-12 09:04:39,277 [P83732/D3/T44] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.PropertyEditors.IParameterEditor
+ 2017-04-12 09:04:39,277 [P83732/D3/T44] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.PropertyEditors.IParameterEditor, found 0 (took 1ms)
+ 2017-04-12 09:04:44,668 [P83732/D3/T48] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Core.Persistence.Mappers.BaseMapper
+ 2017-04-12 09:04:44,668 [P83732/D3/T48] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Core.Persistence.Mappers.BaseMapper, found 0 (took 0ms)
+ 2017-04-12 09:04:45,309 [P83732/D3/T48] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt succeeded for username tina_engelsen@hotmail.com from IP address 217.195.185.18
+ 2017-04-12 09:04:45,324 [P83732/D3/T48] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: User: tina_engelsen@hotmail.com logged in from IP address 217.195.185.18
+ 2017-04-12 09:04:45,480 [P83732/D3/T48] ERROR Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper - Could not validate XSRF token
+System.Web.Mvc.HttpAntiForgeryException (0x80004005): The anti-forgery token could not be decrypted. If this application is hosted by a Web Farm or cluster, ensure that all machines are running the same version of ASP.NET Web Pages and that the <machineKey> configuration specifies explicit encryption and validation keys. AutoGenerate cannot be used in a cluster.
+   at System.Web.Helpers.AntiXsrf.AntiForgeryTokenSerializer.Deserialize(String serializedToken)
+   at System.Web.Helpers.AntiXsrf.AntiForgeryWorker.Validate(HttpContextBase httpContext, String cookieToken, String formToken)
+   at System.Web.Helpers.AntiForgery.Validate(String cookieToken, String formToken)
+   at Umbraco.Web.WebApi.Filters.AngularAntiForgeryHelper.ValidateTokens(String cookieToken, String headerToken)
+ 2017-04-12 09:04:45,699 [P83732/D3/T46] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-04-12 09:04:45,699 [P83732/D3/T46] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-04-12 09:04:45,762 [P83732/D3/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.IApplication
+ 2017-04-12 09:04:45,762 [P83732/D3/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.IApplication, found 0 (took 0ms)
+ 2017-04-12 09:04:45,887 [P83732/D3/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-04-12 09:04:45,887 [P83732/D3/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 1ms)
+ 2017-04-12 09:04:45,902 [P83732/D3/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.Trees.TreeController
+ 2017-04-12 09:04:45,902 [P83732/D3/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.Trees.TreeController, found 0 (took 0ms)
+ 2017-04-12 09:04:45,902 [P83732/D3/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of umbraco.interfaces.ITree
+ 2017-04-12 09:04:45,902 [P83732/D3/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of umbraco.interfaces.ITree, found 0 (took 0ms)
+ 2017-04-12 09:04:57,840 [P83732/D3/T49] INFO  Umbraco.Core.PluginManager - Starting resolution types of Umbraco.Web.HealthCheck.HealthCheck
+ 2017-04-12 09:04:57,840 [P83732/D3/T49] INFO  Umbraco.Core.PluginManager - Completed resolution of types of Umbraco.Web.HealthCheck.HealthCheck, found 0 (took 1ms)
+ 2017-04-12 09:05:39,137 [P83732/D3/T34] INFO  umbraco.content - Load Xml from file...
+ 2017-04-12 09:05:39,152 [P83732/D3/T34] INFO  umbraco.content - Loaded Xml from file.
+ 2017-04-12 09:05:39,184 [P83732/D3/T51] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-04-11 09:05:39
+ 2017-04-12 09:24:16,826 [P83732/D3/T45] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: tina_engelsen@hotmail.com, IP Address: 217.195.185.18
+ 2017-04-12 09:49:41,893 [P83732/D3/T54] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username admin from IP address 217.195.185.18
+ 2017-04-12 09:57:25,473 [P83732/D3/T37] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username admin from IP address 217.195.185.18
+ 2017-04-12 09:57:25,863 [P83732/D3/T42] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username admin from IP address 217.195.185.18
+ 2017-04-12 09:57:28,223 [P83732/D3/T48] INFO  Umbraco.Core.Security.BackOfficeSignInManager - Event Id: 0, state: Login attempt failed for username admin from IP address 217.195.185.18
+ 2017-04-12 13:05:40,338 [P83732/D3/T51] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-04-11 13:05:40
+ 2017-04-12 17:05:40,386 [P83732/D3/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-04-11 17:05:40
+ 2017-04-12 21:05:40,500 [P83732/D3/T15] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2017-04-11 21:05:40
