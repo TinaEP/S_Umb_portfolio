@@ -1,0 +1,10 @@
+<div ng-controller="Umbraco.PropertyEditors.ColorPickerController">
+    <ul class="thumbnails color-picker">
+        <li ng-repeat="preval in model.prevalues" ng-class="{active: model.value === preval}">
+            <a ng-click="toggleItem(preval)" class="thumbnail" hex-bg-color="{{preval}}">
+
+            </a>
+        </li>
+    </ul>
+    <input type="hidden" name="modelValue" ng-model="model.value" val-property-validator="validateMandatory" />
+</div>
